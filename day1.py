@@ -18,3 +18,19 @@ print(f"age 的类型是 {type(age)}")
 a = "100"
 b = int(a)        # 字符串"100" → 整数100
 print(f"{a} + 50 = {b + 50}")
+
+name = input("你的名字：")
+age_str = input("你的年龄：")
+city = input("你的城市：")
+
+age = int(age_str)
+future_age = age + 101
+
+
+print("=" * 6)
+print(f"你的名字：{name}")
+print(f"你的年龄：{age}")
+print(f"你的城市：{city}")
+print("=" * 6)
+print(f"我叫{name}，{age}岁，来自{city}。")
+print(f"10 年后我将 {future_age} 岁。")
